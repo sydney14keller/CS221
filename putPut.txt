@@ -1,0 +1,23 @@
+TEST_1
+GetLength Length is 0
+PutItem 5 is inserted
+PutItem 7 is inserted
+PrintList 57
+PutItem 6 is inserted
+PutItem 9 is inserted
+PrintList 5679
+PutItem 1 is inserted
+PrintList 15679
+GetItem 4 not in list.
+GetItem 5 found in list.
+GetItem 9 found in list.
+GetItem 10 not in list.
+IsFull List is full.
+DeleteItem 5 is deleted
+IsFull List is not full.
+DeleteItem 1 is deleted
+DeleteItem 6 is deleted
+DeleteItem 9 is deleted
+PrintList 7
+MakeEmpty PrintList 
+Error 
